@@ -1,0 +1,41 @@
+---
+title: "From Analysis to Interpretation: Learning to Read, Not Just Process"
+subtitle: "Reflection from ARFW 0501: Applied Spatial Analysis for Sustainable Urban Development"
+author:
+  - name: "Youjin Lee"
+    affiliation: "MSc Urbanism"
+format: html
+editor: visual
+---
+
+## Shifted Perspective on Data Analysis
+
+The main purpose of enrolling in *Applied Spatial Analysis* was to improve my technical skills in data processing and visualization. After I began studying urbanism, I genuinely enjoyed turning spatial data into creating clean, intuitive visuals using different processing tools in QGIS. Since then, data analysis has become one of my favorite aspects of urbanism. This enthusiasm for the field began with a curiosity about how to communicate data clearly and effectively, and I assumed this course would be an extension of that interest. Previous GIS workshops in the past quarters, along with the Data Carpentry workshop, led me to expect that I would dive deeper into various methods of processing data using new programs.
+
+However, what I truly gained, and most enjoyed from this course was something I hadn't anticipated: a shift in how I understand the purpose of data analysis itself. I came to see analysis not just as a technical operation, but as a critical process of interpretation. Through this course, I learned how to structure questions, embed intent, and generate meaning. In retrospect, this shift in mindset became the most valuable takeaway from the course.
+
+## Turning Point
+
+My turning point came unexpectedly, right at the end of the course, when I was struck by the depth of interpretation in other groups' presentations. When preparing for the presentation, I actually felt quite confident about our group work: our topic was clear, our spatial unit was original, and our workflows had run smoothly. Yet, as I listened to other teams present their results, I began to notice something missing in our own work. Others were not simply showing what their results looked like; they were reading into them.
+
+I was deeply inspired by the presentation from Group D, who interpreted their results by asking why certain patterns appeared in specific areas, and ended up identifying the exact location that had already been selected for an urban stream restoration project. The presentation from Group B was also outstanding, as they addressed the purpose behind each method and reflected on what the typology derived from the clustering might imply about the urban context.
+
+This contrast hit me hard. I realized that while I had focused so much on processing the data, I had not stopped to ask what it meant. When revising the results section of the final report I returned to our outputs with fresh eyes: not as visuals to be polished, but as numbers to be translated into real urban context. That moment marked a true intellectual shift: from showing data to reading it.
+
+## Reflections on Methodological Choices
+
+As I wrote the results section of our final report, I began to notice details in our analysis that I hadn’t fully considered before. ((Some aspects of our methods, I realized, might have introduced bias or limited the clarity of interpretation. Other parts, while technically sound, seemed open to improvement or alternative approaches.)) ))This section reflects on those observations. Looking back critically at how we used S-MCDA and typology construction helped me better understand not only the strengths of these tools, but also their limitations—and the responsibility that comes with applying them.((
+
+### S-MCDA
+
+The first impression of MCDA was objective scoring system. However, this understanding made me skeptical of the method, since it felt overly subjective. I thought it can be easily manipulated by excluding some criteria and setting weights that you think most important. I saw it as a flexible, assumption-driven tool which is not appropriate for making reliable result.
+
+However, I realized that producing 절대적인 result is not the purpose of MCDA, as I examined the individual outputs of each criterion in our analysis. From result of each criterion, I began to notice units with unexpected numbers; some units scored surprisingly high or low in ways that contradicted my assumptions. These anomalies prompted me to take a closer look at the spatial characteristics of each unit. The process of trying to explain those outliers deepened my understanding of the site and finding out interesting parts in Senica. Before, units were just segregated lines with colors, now it is part of real stream with distinct identities.
+
+Finally, I came to see that the subjectivity of MCDA is not a flaw, but a driver of analysis. What initially felt like a weakness turned out to be its strength: a structured way to express and test a hypothesis. If the researcher has a clear intent and a well-defined research question, MCDA allows those priorities to be translated into a set of evaluative rules. In that sense, it doesn't mask subjectivity—it organizes it. It is not a method that pretending to deliver a purely objective outcome, but a tool for explicit hypothesis testing, where the framing of criteria and the assignment of weights reflect the values and goals of the study.
+
+That realization also led me to look more critically at the decisions we had made. In biodiversity, for example, we gave the highest weight to connectivity to green, assuming it was the most meaningful indicator. But the distance values didn’t vary much across units, and a missing dataset in the northern zone produced a single extreme value that distorted the normalization. As a result, that criterion had less influence than we had intended. In quality of life, the concentration of POIs was so unevenly distributed, often zero outside the center, that it overshadowed any potential in less developed areas. And in climate adaptation, flood impact was weighted so heavily that it drove the final outcome, masking the influence of other relevant criteria. These were not just data issues, but signs that we needed a more thoughtful, exploratory approach to weight assignment.
+
+### Typology Construction
+
+## New Expectations for Collaboration
