@@ -1,12 +1,15 @@
 ---
 title: "From Analysis to Interpretation: Learning to Read, Not Just Process"
-subtitle: "Reflection from ARFW 0501: Applied Spatial Analysis for Sustainable Urban Development"
+subtitle: "Reflection from course "
+course: "ARFW 0501: Applied Spatial Analysis for Sustainable Urban Development"" 
 author:
   - name: "Youjin Lee"
     affiliation: "MSc Urbanism"
 format: html
 editor: visual
 ---
+
+# From Analysis to Interpretation: Learning to Read, Not Just Process
 
 ## Shifted Perspective on Data Analysis
 
@@ -24,18 +27,34 @@ This contrast hit me hard. I realized that while I had focused so much on proces
 
 ## Reflections on Methodological Choices
 
-As I wrote the results section of our final report, I began to notice details in our analysis that I hadn’t fully considered before. ((Some aspects of our methods, I realized, might have introduced bias or limited the clarity of interpretation. Other parts, while technically sound, seemed open to improvement or alternative approaches.)) ))This section reflects on those observations. Looking back critically at how we used S-MCDA and typology construction helped me better understand not only the strengths of these tools, but also their limitations—and the responsibility that comes with applying them.((
+Writing the results section led me to reflect more critically on the methods we used. Both MCDA and Typology construction required a series of choices that were not only technical but also deeply tied to our intent; how to define what matters, how to represent it, and how to interpret the results. Through this process, I began to see how much our analytical decisions shaped the story we told about the site. This section revisits both methods to examine what those decisions revealed, what they limited, and how they helped clarify our assumptions.
 
 ### S-MCDA
 
-The first impression of MCDA was objective scoring system. However, this understanding made me skeptical of the method, since it felt overly subjective. I thought it can be easily manipulated by excluding some criteria and setting weights that you think most important. I saw it as a flexible, assumption-driven tool which is not appropriate for making reliable result.
+My first impression of MCDA was that it was an objective scoring system, but I saw it as a flexible, assumption-driven tool. MCDA didn’t seem appropriate for producing reliable results, since I thought can be easily manipulated by including or excluding certain criteria, or by assigning weights based on what the researcher personally considered most important.
 
-However, I realized that producing 절대적인 result is not the purpose of MCDA, as I examined the individual outputs of each criterion in our analysis. From result of each criterion, I began to notice units with unexpected numbers; some units scored surprisingly high or low in ways that contradicted my assumptions. These anomalies prompted me to take a closer look at the spatial characteristics of each unit. The process of trying to explain those outliers deepened my understanding of the site and finding out interesting parts in Senica. Before, units were just segregated lines with colors, now it is part of real stream with distinct identities.
+However, this perception began to shift as I examined the outputs of each criterion in our analysis. I started noticing unexpected values; units that scored surprisingly high or low, contradicting my assumptions. These anomalies prompted me to look more closely at the spatial characteristics of each unit. Trying to explain these outliers deepened my understanding of the site and led me to discover nuances in Seneca I hadn’t seen before. What had once looked like a set of colored lines on a map now felt like a series of real, distinct places along a stream.
 
-Finally, I came to see that the subjectivity of MCDA is not a flaw, but a driver of analysis. What initially felt like a weakness turned out to be its strength: a structured way to express and test a hypothesis. If the researcher has a clear intent and a well-defined research question, MCDA allows those priorities to be translated into a set of evaluative rules. In that sense, it doesn't mask subjectivity—it organizes it. It is not a method that pretending to deliver a purely objective outcome, but a tool for explicit hypothesis testing, where the framing of criteria and the assignment of weights reflect the values and goals of the study.
+Eventually, I came to understand that the subjectivity of MCDA is not a flaw, but a driver of analysis. What initially felt like a weakness turned out to be its strength: a structured way to express and test a hypothesis. If the researcher has a clear intent and a well-defined question, MCDA allows those priorities to be translated into a formalized evaluative process. It doesn’t mask subjectivity—it organizes it. Rather than pretending to deliver a purely objective outcome, MCDA enables explicit hypothesis testing, where the choice of criteria and weights reflects the values and goals of the study.
 
-That realization also led me to look more critically at the decisions we had made. In biodiversity, for example, we gave the highest weight to connectivity to green, assuming it was the most meaningful indicator. But the distance values didn’t vary much across units, and a missing dataset in the northern zone produced a single extreme value that distorted the normalization. As a result, that criterion had less influence than we had intended. In quality of life, the concentration of POIs was so unevenly distributed, often zero outside the center, that it overshadowed any potential in less developed areas. And in climate adaptation, flood impact was weighted so heavily that it drove the final outcome, masking the influence of other relevant criteria. These were not just data issues, but signs that we needed a more thoughtful, exploratory approach to weight assignment.
+This realization also led me to look more critically at the decisions we had made. In the biodiversity category, for example, we gave the highest weight to connectivity to green, assuming it was the most meaningful indicator. But the distance values didn’t vary much across units, and a missing dataset in the northern zone produced a single extreme value that distorted the normalization. As a result, this criterion ended up having less influence than we intended. In quality of life, the concentration of POIs was so unevenly distributed, often zero outside the center, that it overshadowed potential in less developed areas. And in climate adaptation, flood impact was weighted so heavily that it dominated the final outcome, reducing the influence of other relevant factors. In the end, all of these revealed the need for a more thoughtful and exploratory approach to weight assignment.
 
 ### Typology Construction
 
+Similarly, working on the typology construction made me realize that the most critical part was not the process itself, but the intention behind the classification—namely, the purpose of constructing the types. Specifically, variable selection was key. At first, we chose variables from the MCDA results, particularly those with the highest weights. That decision seemed logical at the time, but in retrospect, it didn’t fully align with the purpose of the typology. Since the goal was to define intervention strategies, perhaps we should have chosen variables that were more directly linked to potential interventions.
+
+For example, while *impact of flood* is a meaningful indicator, *permeability* might have had a more direct connection to physical intervention strategies. Similarly, *connectivity to green* might not have been as relevant as *percentage of green* when considered from an intervention perspective. While connectivity reflects access and can suggest strategies for expanding green areas near units that lack them, it cannot meaningfully support arguments for expansion in units where green space already exists but is minimal. If our goal had been to justify the broad expansion of green areas, then *percentage of green* might have been a more appropriate variable to include.
+
+In addition, the distribution of values for each variable turned out to be another important factor. Some indicators, such as *POI concentration*, were extremely skewed; very high in central areas and nearly zero elsewhere. This made it difficult to ensure similarity within clusters. In fact, some units were placed in a cluster labeled with the second-highest POI concentration, even though they had no POIs at all. In contrast, *connectivity to green* had values that were too evenly distributed, which may have weakened the distinction between clusters.
+
+As a result, we ended up with very few units in most clusters, except for Type 2. While this could be interpreted as highlighting exceptional cases, it also raises questions about the appropriateness of the selected variables. This made me curious about how internally consistent each cluster actually was. For this, I’d like to explore further by examining the distances between units within each group. This can be done by following Step 6 of the clustering tutorial, which would help visualize how the units are distributed. I also think it would be interesting to identify the unit closest to the cluster’s central value, as well as the one furthest from it, and compare the two to see whether they still seem to belong to the same group.
+
 ## New Expectations for Collaboration
+
+As I began to think more critically about our methods and interpretations, I found myself wishing we had discussed these reflections more as a group. So much of my learning came in the final stages; while writing the results, questioning our assumptions, and reassessing our tools. This made me realize how valuable those conversations could have been if they had been shared within the group.
+
+I was fortunate to work with a team that functioned with remarkable efficiency. Most of us were quite confident in data processing, and we divided tasks clearly. The early phases of the project, like defining the unit of analysis and selecting the topic, were full of productive discussion, and the technical execution unfolded smoothly.
+
+But in hindsight, I wish we had carried that same level of dialogue into the interpretation of our results. While writing the final section of the report, I realized how much richer the insights might have been if we had unpacked the data together more thoroughly. A team that works well technically might do even better if it also thinks together critically.
+
+This experience has shifted what I expect from collaboration. Beyond fairness, efficiency, and clear division of roles, I now see that true collaborative potential lies in shared interpretation and meaning-making. After a year of learning how to work in groups while studying urbanism, I feel ready to move toward co-creating meaning—by building shared understanding rather than just sharing tasks. I only wish this realization had come a little earlier, when there was still time to think more collectively, not just individually.
